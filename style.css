@@ -1,0 +1,381 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+ ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    font-size: 1.4em;
+   
+   
+ }
+ nav img {
+    height: 60px;
+
+ }
+ nav{
+    
+    position:absolute;
+    top: 0;
+    width: 100%;
+    padding: 2% 6%;
+   
+ }
+ nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+ .butBut {
+    background-color: red;
+    color:aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 30px;
+    border: 0;
+    padding:10px 20px;
+ 
+
+ }
+
+.netflixtext{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+    line-height: 4em; 
+    height: 80vh;
+
+}
+.section1{
+    border-top: 10px solid black ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.473)), url(background1.png);
+
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    border-bottom:  6px solid #5854547f;;
+    position: relative;
+ 
+}
+.paragraph1{
+    font-size: 60px;
+    width: 35%;
+    font-weight: bold;
+    justify-content: center;
+
+}
+.paragraph2{
+    font-size: 30px;
+    justify-content: center;
+   
+}
+.paragraph3{
+    font-size: 20px;
+    justify-content: center;
+   
+}
+input{
+   height: 70px;
+   width: 70vh;
+   font-size: 20px;
+
+
+
+}
+.netflix1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.butBut2{
+    background-color: red;
+    color:aliceblue;
+    border-radius: 5px;
+    height: 70px;
+    width: 20vh;
+    font-size: 30px;
+
+}
+.section2{
+    display:flex;
+    flex-direction:row;
+    padding: 30px 30px;
+    background-color: black;
+    border-bottom:  6px solid #5854547f;;
+    
+    
+    
+}
+.watch {
+    font-size: 50px;
+    width: 35%;
+    font-weight: bold;
+    line-height: 1.7em;
+    margin-left: 250px;
+    color: white;
+
+}
+.enjoy{
+    font-size: 25px;
+    width: 30%;
+    line-height: 1em;
+    color: white;
+    margin-left: 250px;
+}
+.section2img {
+    margin-left: 40px ;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-bottom:  6px solid #5854547f;;
+    align-items: center;
+}
+.save{
+    color: white;
+    font-size: 25px;
+    width: 58%;
+    line-height: 1em;
+    /* margin-top: 20px; */
+}
+.download{
+    color: white;
+    font-size: 50px;
+    width: 58%;
+    font-weight: bold;
+    line-height: 1em;
+    /* margin-top: 100px; */
+
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 80px 80px;
+    border-bottom:  6px solid #5854547f;;
+    align-items: left;
+
+}
+.watche{
+    color: white;
+    font-size: 50px;
+    width: 58%;
+    font-weight: bold;
+    line-height: 1.5em;
+    /* margin-top: 50px; */
+    margin-left: 100px;
+}
+.stream{
+    color: white;
+    font-size: 25px;
+    width: 30%;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+.section5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    border-bottom:  6px solid #5854547f;;
+    
+
+   
+    
+}
+.profile{
+    color: white;
+    font-size: 50px;
+    width: 58%;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 30px;
+    
+}
+.kids{
+    color: white;
+    font-size: 25px;
+    width:45%;
+    padding-bottom: 40px;
+    
+}
+.section6{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 6px solid #5854547f;
+    color: white;
+   
+}
+.section6 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    padding: 50px 10px;
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+}
+.whatis{
+    color: white;
+    height: 50%;
+    width: 65%;
+    background-color: grey;
+    padding: 20px 20px;
+    border-bottom: 7px solid black;
+    font-size: 20px;
+ 
+
+}
+.plus{
+    font-size: 20px;
+}
+.cost{
+    color: white;
+    height: 50%;
+    width: 65%;
+    background-color: grey;
+    padding: 20px 20px;
+    border-bottom: 7px solid black;
+    font-size: 20px;
+
+}
+.where{
+    color: white;
+    height: 50%;
+    width: 65%;
+    background-color: grey;
+    padding: 20px 20px;
+    border-bottom: 7px solid black;
+    font-size: 20px;
+
+}
+.goodkids{
+    color: white;
+    height: 50%;
+    width: 65%;
+    background-color: grey;
+    padding: 20px 20px;
+    border-bottom: 50px solid black;
+    font-size: 20px;
+    
+
+}
+.ready{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.netflix2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+    
+
+}
+.butBut3{
+    background-color: red;
+    color:aliceblue;
+    border-radius: 5px;
+    height: 70px;
+    width: 20vh;
+    font-size: 30px;
+
+}
+.section7{
+  
+    background-color: black;
+    color: grey;
+    padding: 40px  180px;
+   
+   
+    
+    
+}
+ .section7 li{
+    list-style: none;
+    color: grey;
+}
+
+.list1, .list2, .list3, .list4{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list1{
+    line-height: 3em;
+   
+}
+.list2{
+    line-height: 3em;
+}
+.list3{
+    line-height: 3em;
+}
+.list4{
+    line-height: 3em;
+}
+h3{
+   padding-top: 50px;
+  
+}
+
+.Nigeria{
+    margin-top: 40px;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 812px) {
+    .section2, .section3, .section4, .section5
+    {flex-direction: column;
+        text-align: center;
+        justify-content:  center;
+        padding: 0px;
+     
+    
+    }
+    .section7{
+        padding: 0%;
+    }
+    input{
+        font-size: 200%;
+        width: 100px;
+    }
+    .section2 img, .section3 img, .section4 img, .section5 img{
+        height: 20vh;
+    }
+    .watch {
+        margin:0px;
+        width: 100%;
+
+        
+    }
+    .watch, .download, .watche, .profile{
+        font-size: 12px;
+    }
+
+    
+}
+
